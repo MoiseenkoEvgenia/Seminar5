@@ -14,7 +14,7 @@ int sum = 0;
  {
     sum = sum + numbers[i];
  }
-Console.WriteLine($"всего {numbers.Length} чисел, сумма элементов на нечетных позициях = {sum}");
+Console.WriteLine($"сумма элементов на нечетных позициях = {sum}");
  
  void FillArrayRandomNumbers(int[] numbers)
  {
